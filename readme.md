@@ -1,5 +1,7 @@
 # Vefforritun 1, 2023: Verkefni 10, JS #4
 
+[Kynning í fyrirlestri](https://youtu.be/fkHRygbU-fM).
+
 ## Markmið
 
 - Útbúa eigið verkefni með HTML, CSS og JavaScript.
