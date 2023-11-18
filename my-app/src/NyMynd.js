@@ -1,5 +1,5 @@
 export function NyMynd() {
-	const VH = String(window.innerHeight - 64);
+	const VH = String(window.innerHeight - 80);
 	const VW = String(window.innerWidth - 32);
 	const tala = Math.round(Math.random() * (100));
 	const mynd = `https://source.unsplash.com/random/${VW}x${VH}?sig=${String(tala)}`;
