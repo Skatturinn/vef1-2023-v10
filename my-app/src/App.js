@@ -1,10 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
+import FontPicker from 'font-picker';
 import { NyMynd } from './NyMynd';
 
-// 
-// 
-
+const fontPicker = new FontPicker(
+	'AIzaSyDyNjdBJi6833CZ7oO77k8nAH8_LvURAPM', // Google API key
+	'Open Sans', // Default font
+	{ limit: 30 }, // Additional options
+);
 // function teksti() {
 // 	const figcap = document.querySelector('figcaption');
 // 	if (!figcap) {
