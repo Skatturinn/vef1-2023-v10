@@ -16,7 +16,9 @@ const fontPicker = new FontPicker(
 	'Open Sans', // Default font
 	{ limit: 12 }, // Additional options
 );
-console.log(fontPicker)
+if (!fontPicker) {
+	console.warn(fontPicker)
+}
 // }
 // https://fonts.googleapis.com/css2?family=Playfair+Display
 function App() {
