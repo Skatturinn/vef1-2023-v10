@@ -20,7 +20,7 @@ if (!fontPicker) {
 	console.warn(fontPicker)
 }
 
-function breytatekstas() {
+function b() {
 	const stor = document.querySelector('.stor')
 	const teksti = document.querySelector('.tekstinn')
 	teksti.style.fontSize = `${String(stor.value)}em`
@@ -38,7 +38,7 @@ function App() {
 					<label>Velja lit:</label>
 					<input type="color" onChange={breytatekstalit} className='litur'></input>
 					<label>Stærð leturs:</label>
-					<input type="range" onChange={breytatekstas} value="1" className='stor'></input>
+					<input type="range" onChange={b} value="1" max="10" className='stor'></input>
 				</menu>
 				<figure className='nr2'>
 					<img src='' className='litamynd' alt=''></img>
