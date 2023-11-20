@@ -63,7 +63,7 @@ function App() {
 						Ég vill nýja mynd
 					</button>
 					<label>Velja lit:</label>
-					<input type="color" onChange={breytatekstalit} className='litur'></input>
+					<div id="font-picker"></div>
 				</menu>
 				<menu id='nr2'>
 					{/* <label>Snúa</label> */}
@@ -73,7 +73,7 @@ function App() {
 				<figure id='nr3'>
 					<img src='' className='litamynd' alt=''></img>
 				</figure>
-				<textarea className='tekstinn' defaultValue={'teksti hérna'}></textarea>
+				<textarea className='tekstinn apply-font' defaultValue={'teksti hérna'}></textarea>
 			</main>
 		</div>
 	);
