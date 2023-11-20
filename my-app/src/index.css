@@ -10,8 +10,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
 	box-sizing: inherit;
 }
 
@@ -73,16 +73,12 @@ menu {
 	justify-items: center;
 }
 
-#nr1 {
+.nr1 {
 	grid-row: 1;
 }
 
-#nr2 {
+.nr2 {
 	grid-row: 2;
-}
-
-#nr3 {
-	grid-row: 3;
 }
 
 figure {
@@ -96,7 +92,7 @@ figure {
 	height: 1em;
 	width: 1em;
 	margin: 0;
-	border: none;
+	border: 0;
 }
 
 
@@ -110,7 +106,7 @@ body {
 	position: absolute;
 	grid-row: 3;
 	background-color: transparent;
-	border: none;
+	border: 0;
 	height: 2em;
 	text-align: center;
 	z-index: 2;
@@ -118,6 +114,6 @@ body {
 
 }
 
-.App-header {
+.app-header {
 	text-align: center;
 }
