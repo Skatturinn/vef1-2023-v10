@@ -2,7 +2,7 @@
 import './App.css';
 import { NyMynd } from './NyMynd';
 
-// AIzaSyDyNjdBJi6833CZ7oO77k8nAH8_LvURAPM
+// 
 // 
 
 // function teksti() {
