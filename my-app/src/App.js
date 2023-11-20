@@ -38,7 +38,7 @@ function App() {
 					<label>Velja lit:</label>
 					<input type="color" onChange={breytatekstalit} className='litur'></input>
 					<label>Stærð leturs:</label>
-					<input type="range" onChange={b} value="1" max="10" className='stor'></input>
+					<input type="range" onChange={b} min="1" max="10" className='stor'></input>
 				</menu>
 				<figure className='nr2'>
 					<img src='' className='litamynd' alt=''></img>
