@@ -67,7 +67,7 @@ function App() {
 				</menu>
 				<menu id='nr2'>
 					{/* <label>Snúa</label> */}
-					<input type="range" min="0" max={360} onChange={snua} className='gradur'></input>
+					<input type="range" min="0" max={360} onChange={snua}></input>
 					{/* <button></button> */}
 				</menu>
 				<figure id='nr3'>
