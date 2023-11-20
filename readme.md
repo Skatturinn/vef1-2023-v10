@@ -2,7 +2,7 @@
 
 Útlista skal í `readme` hvaða tól eru notað og hvernig þau eru sett upp.
 
-FontPicker frá https://github.com/samuelmeuli/font-picker
+FontPicker frá https://github.com/samuelmeuli/font-picker sem notast við google font api
 set up með npm install font-picker importað og keyrt í App.js
 
 Notast við react við uppsetningu.
