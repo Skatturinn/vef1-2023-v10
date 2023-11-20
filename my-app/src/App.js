@@ -19,6 +19,12 @@ const fontPicker = new FontPicker(
 if (!fontPicker) {
 	console.warn(fontPicker)
 }
+
+function breytatekstas() {
+	const stor = document.querySelector('.stor')
+	const teksti = document.querySelector('.tekstinn')
+	teksti.style.fontSize = `${String(stor.value)}em`
+}
 // }
 // https://fonts.googleapis.com/css2?family=Playfair+Display
 function App() {
@@ -31,6 +37,8 @@ function App() {
 					</button>
 					<label>Velja lit:</label>
 					<input type="color" onChange={breytatekstalit} className='litur'></input>
+					<label>Stærð leturs:</label>
+					<input type="range" onChange={breytatekstas} value="1" className='stor'></input>
 				</menu>
 				<figure className='nr2'>
 					<img src='' className='litamynd' alt=''></img>
