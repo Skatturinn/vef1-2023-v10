@@ -45,12 +45,7 @@ function breytatekstalit() {
 // 	document.body.classList.add('fonts-loaded');
 
 // }
-function snua() {
-	// const litur = document.querySelector('.gradur')
-	// const teksti = document.querySelector('.tekstinn')
-	// const rotate = CSSRotate({ angle: 2 })
-	// console.log(rotate)
-}
+
 
 
 // https://fonts.googleapis.com/css2?family=Playfair+Display
@@ -63,11 +58,11 @@ function App() {
 						Ég vill nýja mynd
 					</button>
 					<label>Velja lit:</label>
-					<div id="font-picker"></div>
+					<input type="color" onChange={breytatekstalit} className='litur'></input>
 				</menu>
 				<menu id='nr2'>
 					{/* <label>Snúa</label> */}
-					<input type="range" min="0" max={360} onChange={snua}></input>
+					<div id="font-picker"></div>
 					{/* <button></button> */}
 				</menu>
 				<figure id='nr3'>
